@@ -6,3 +6,6 @@ venv/
 *.log
 .vscode/
 .idea/
+data/sitax.db
+data/*.db-journal
+src/db/data/
