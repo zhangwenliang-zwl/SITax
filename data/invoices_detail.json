@@ -1,0 +1,81 @@
+[
+  {
+    "invoice_code": "91310000",
+    "invoice_number": "00000001",
+    "issue_date": "2026-09-01",
+    "type": "销项",
+    "amount": 100000,
+    "tax": 13000,
+    "total": 113000,
+    "buyer_code": "A001",
+    "buyer_name": "甲客户",
+    "seller_code": "B001",
+    "seller_name": "本公司"
+  },
+  {
+    "invoice_code": "91310000",
+    "invoice_number": "00000002",
+    "issue_date": "2026-09-03",
+    "type": "销项",
+    "amount": 50000,
+    "tax": 6500,
+    "total": 56500,
+    "buyer_code": "A002",
+    "buyer_name": "乙客户",
+    "seller_code": "B001",
+    "seller_name": "本公司"
+  },
+  {
+    "invoice_code": "91310000",
+    "invoice_number": "00000003",
+    "issue_date": "2026-09-05",
+    "type": "进项",
+    "amount": 20000,
+    "tax": 2600,
+    "total": 22600,
+    "buyer_code": "A003",
+    "buyer_name": "本公司",
+    "seller_code": "A001",
+    "seller_name": "A供应商"
+  },
+  {
+    "invoice_code": "91310000",
+    "invoice_number": "00000004",
+    "issue_date": "2026-09-08",
+    "type": "进项",
+    "amount": 10000,
+    "tax": 1300,
+    "total": 11300,
+    "buyer_code": "A004",
+    "buyer_name": "本公司",
+    "seller_code": "A002",
+    "seller_name": "B供应商"
+  },
+  {
+    "invoice_code": "91310000",
+    "invoice_number": "00000005",
+    "issue_date": "2026-09-10",
+    "type": "销项",
+    "amount": 30000,
+    "tax": 3900,
+    "total": 33900,
+    "buyer_code": "A005",
+    "buyer_name": "丙客户",
+    "seller_code": "B001",
+    "seller_name": "本公司"
+  },
+  {
+    "invoice_code": "91310000",
+    "invoice_number": "00000006",
+    "issue_date": "2026-09-12",
+    "type": "销项",
+    "amount": 8000,
+    "tax": 1040,
+    "total": 9999,
+    "buyer_code": "A006",
+    "buyer_name": "丁客户",
+    "seller_code": "B001",
+    "seller_name": "本公司",
+    "_comment": "故意构造的勾稽不符发票，用于演示校验"
+  }
+]
